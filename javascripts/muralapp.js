@@ -3,8 +3,8 @@ var Mural = {};
 (function(m){
   m.App = function(options) {
     var defaultCenter = {};
-    defaultCenter.lat = config.default_lat || 37.7749295;
-    defaultCenter.lng = config.default_lng || -122.4194155;
+    defaultCenter.lat = config.default_lat || 30.266406;
+    defaultCenter.lng = config.default_lng || -97.746827;
     var _options = $.extend({
         mapTarget: '#map-target',
         listTarget: '#list-container',
