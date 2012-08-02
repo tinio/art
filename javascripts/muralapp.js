@@ -299,8 +299,8 @@ var loadConfig = function(callback) {
 
     var data = {default_lat: 21.30694,
             default_lng: -157.85833,
-            city_name: "Honolulu",
-            brought_to_you_by: "Mayor's Office of Culture and the Arts.",
+            city_name: "Austin",
+            brought_to_you_by: "Code for America Team Austin",
             base_url:"http://data.honolulu.gov/api/resource/yef5-h88r.json"};
 
     callback(data);
